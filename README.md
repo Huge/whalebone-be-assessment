@@ -12,7 +12,7 @@ A simple microservice with REST API endpoints for saving and retrieving user dat
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Huge/whalebone-be-assessment whalebone-BE-assessment
 cd whalebone-BE-assessment
 ```
 
