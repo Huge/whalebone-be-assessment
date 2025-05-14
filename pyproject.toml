@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "whalebone-microservice"
+version = "0.0.1"
+description = "A simple microservice with two REST API endpoints to store and retrieve a person's information"
+authors = ["Martin Vlach <mr.huge@seznam.cz>"]
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.95.0"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.0"
+pydantic = "^1.10.7"
+python-dotenv = "^1.0.0"
+email-validator = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+requests = "^2.31.0"
+httpx = "^0.24.0"
+pytest-asyncio = "^0.21.0"
+pre-commit = "^4.2.0"
+ruff = "^0.11.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

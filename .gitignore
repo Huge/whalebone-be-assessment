@@ -1,0 +1,22 @@
+# Python and Poetry auxiliaries:
+__pycache__/
+.pytest_cache/
+htmlcov/
+
+# Virtual Environment for those who avoid using Poetry:
+.venv/
+
+# IDEs' auxiliaries:
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# Databases and secrets: :
+*.db
+.env
+
+# Logs:
+*.log
+logs/
